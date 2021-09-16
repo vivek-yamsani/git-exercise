@@ -1,0 +1,23 @@
+2 - git checkout -b branch_1
+3 - touch aboutme.txt
+4 - git commit -m " <message> "
+PR- 
+	git push origin <branch_name>
+	Creating in gui 
+5 - is also gui
+6 - git checkout -b branch_2
+8 - git merge branch_2 being on main
+9 - 1) git checkout branch_1
+  - 2) git revert <commit_id>
+11- add (relative)paths to .git/info/exclude file
+    && git update-index --assume-unchanged.git/info/exclude
+
+    			or
+
+	create .gitignore and add files<paths>
+13 - git checkout branch_4
+16 - git rebase main being on branch_4
+17 - git checkout temp_branch
+18 - git stash
+19 - git commit --amend -m "<new_message>"
+20 - git stash apply on being temp_branch
